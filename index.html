@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Streak App</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Welcome To My Streak App</h1>
+        </div>
+    </header>
+    <main>
+        
+        <div class="input-container">
+            <input type="text" class="habit-name" placeholder="Enter habit name">
+            <input type="date" class="habit-date">
+            <input type="time" class="habit-time">
+            <button class="add-button" onclick="addHabit()">Add</button>
+        </div>
+
+        <h2>Activities</h2>
+
+        <div class="activities-container" id="activities">
+        </div>
+    </main>
+    <script src="streak.js"></script>
+</body>
+</html>
